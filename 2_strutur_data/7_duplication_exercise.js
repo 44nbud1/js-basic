@@ -12,10 +12,11 @@ for (let val of v) {
         map.set(val, 1)
     }
 
-    for (let [k,v] of map) {
+}
 
-        if (v > 1) {
-            console.log("k: ", k, " v: ", v)
-        }
+for (let [k,v] of map) {
+
+    if (v > 1) {
+        console.log("k: ", k, " v: ", v)
     }
 }
